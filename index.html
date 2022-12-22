@@ -20,38 +20,115 @@
                 <a class="navbar-brand" href="#">
                     <i class="fa-brands fa-instagram"></i>
                     <img src="https://e7.pngegg.com/pngimages/712/1009/png-clipart-letter-instagram-font-instagram-text-logo.png" alt="Logo" width="100" height="30" class="d-inline-block align-text-top">
-                </a>      
+                </a>    
                 
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Create a New Post!
-                </button>
+               <div class="navbar-nav">
+                        
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a New Post!
+                        </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a New Post! </h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <input class="form-control form-control-lg" type="text" placeholder="Add the caption of your post here." aria-label=".form-control-lg example">
-                        <i class="fa fa-location-dot"></i>
-                        <i class="fa fa-camera"></i>
-                    </div>
+                        <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a New Post! </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <input class="form-control form-control-lg" type="text" placeholder="Add the caption of your post here." aria-label=".form-control-lg example">
+                                    <i class="fa fa-location-dot"></i>
+                                    <i class="fa fa-camera"></i>
+                                </div>
 
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                    </div>
-                </div>
-</div>    
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
 
-                
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-gear"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
+                        </ul>
+
+                    </div>        
+              </div>
+
             </div>   
        </nav>
+
+        <!--AHORA CREANDO EL CUADRO DE IMAGENES-->
+        <div class="container-fluid">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card">
+                          <img src="https://picsum.photos/id/237/500/200" class="card-img-top" alt="...">
+                          
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card">
+                          <img src="https://picsum.photos/id/270/500/200" class="card-img-top" alt="...">
+                        </div>
+                      </div>
+
+                      
+                    <div class="col">
+                      <div class="card">
+                        <img src="https://picsum.photos/id/201/500/200" class="card-img-top" alt="...">
+                        
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="https://picsum.photos/id/215/500/200" class="card-img-top" alt="...">
+                        
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="https://picsum.photos/id/234/500/200" class="card-img-top" alt="...">
+                        
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="https://picsum.photos/id/257/500/200" class="card-img-top" alt="...">
+            https://picsum.photos/id/237/200/300
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+            
+        </div>    
 
     </div>
     
