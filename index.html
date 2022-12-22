@@ -68,21 +68,23 @@
        </nav>
 
         <!--AHORA CREANDO EL CUADRO DE IMAGENES-->
-        <div class="container-fluid">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <div class="navbar-nav">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                      <i class="fa-solid fa-table-cells-large "></i>
+                    </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                      <i class="fa-solid fa-bars"></i>
+                    </button>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-                </li>
+                
             </ul>
 
             <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
                         <div class="card">
@@ -119,17 +121,59 @@
                     <div class="col">
                       <div class="card">
                         <img src="https://picsum.photos/id/257/500/200" class="card-img-top" alt="...">
-            https://picsum.photos/id/237/200/300
                       </div>
                     </div>
                   </div>
             </div>
 
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+            <!--Tarjetas de una sola imagen-->
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="card text-center">
+                  <div class="card-header">
+                    My Adorable Pesky Dog
+                  </div>
+                   <div class="card-body">
+                        <img class="img-fluid" src="https://picsum.photos/id/237/500/200" class="card-img-top" alt="..."> 
+                   </div>
+                  <div class="card-footer text-muted">
+                    <p>241 likes</p>
+                    <p>Best picture I have ever take of my dog!!!</p>
+                  </div>
+                </div>
+                
+
+                <div class="card text-center">
+                  <div class="card-header">
+                    Best times working at office with all my tools
+                  </div>
+                   <div class="card-body">
+                    <img class="img-fluid" src="https://picsum.photos/id/201/500/200" class="card-img-top" alt="...">
+                   </div>
+                  <div class="card-footer text-muted">
+                    <p>150 likes</p>
+                    <p>Chances are that right now Im still working!!</p>
+                  </div>
+                </div>
+
+                <div class="card text-center">
+                  <div class="card-header">
+                    The city I´d always wanted to visit!!
+                  </div>
+                   <div class="card-body">
+                    <img class= "img-fluid" src="https://picsum.photos/id/257/500/200" class="card-img-top" alt="...">
+                   </div>
+                  <div class="card-footer text-muted">
+                    <p>180 likes</p>
+                    <p>Someday I´ll be there enjoying live and without worries!!</p>
+                  </div>
+                </div>
+                
+
+            </div>
+
             
         </div>    
-
     </div>
     
 
